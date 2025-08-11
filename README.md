@@ -43,13 +43,10 @@
 <!-- Snake animation (auto light/dark) -->
 <div align="center">
   <picture>
-    <!-- If your filenames are github-contribution-grid-snake*.svg, change them below -->
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FlashAdking/FlashAdking-FlashAdking/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FlashAdking/FlashAdking-FlashAdking/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/FlashAdking/FlashAdking-FlashAdking/output/github-snake.svg" />
-  </picture>
-  <!-- Optional GIF version if your workflow generates it -->
-  <!-- <img alt="snake gif" src="https://raw.githubusercontent.com/FlashAdking/FlashAdking-FlashAdking/output/ocean.gif" /> -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+</picture>
 </div>
 
 <h1 align="center"></h1>
