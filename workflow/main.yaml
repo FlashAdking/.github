@@ -2,12 +2,12 @@ name: generate animation
 
 on:
   schedule:
-    - cron: "0 */24 * * *"   # runs every 24 hours (UTC)
+    - cron: "0 */24 * * *"  # runs every 24h (UTC)
   workflow_dispatch:
   push:
     branches:
-      - master
       - main
+      - master
 
 permissions:
   contents: write
@@ -15,17 +15,20 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
+      - name: Generate snake (SVG + GIF)
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # Each output on its own line; you can customize via query params.
+          # Supported: palette (github|github-dark|github-light), color_snake, color_dots (5 colors)
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Publish SVGs to output branch
+      - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
