@@ -80,7 +80,7 @@
   <img src="https://streak-stats.demolab.com?user=FlashAdking&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph" />
 </div>
 
-
+---
 <!-- Snake animation (auto light/dark) -->
 <div align="center">
   <picture>
