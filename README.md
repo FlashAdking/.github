@@ -52,7 +52,7 @@
 
 ###
 
-<p align="left">I'm a passionate Full‑Stack Developer from Maharashtra, India, currently pursuing a CSE (AIML) degree in my 3rd year</p>
+<p align="left">I'm a Full‑Stack Developer from Maharashtra, India, currently pursuing a CSE (AIML) degree in my 3rd year</p>
 
 ###
 
