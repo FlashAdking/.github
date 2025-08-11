@@ -40,15 +40,6 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=FlashAdking.FlashAdking" alt="visitors" />
 </div>
 
-<!-- Snake animation (auto light/dark) -->
-<div align="center">
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-</picture>
-</div>
-
 <h1 align="center"></h1>
 
 <h3 align="left">👩‍💻 About Me</h3>
@@ -87,4 +78,14 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=FlashAdking&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="250" alt="stats graph" />
   <img src="https://streak-stats.demolab.com?user=FlashAdking&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph" />
+</div>
+
+
+<!-- Snake animation (auto light/dark) -->
+<div align="center">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+</picture>
 </div>
